@@ -1,8 +1,8 @@
-class MystLang < Formula
-  desc "The Myst programming language, v0.3.0 (Dec 28, 2017)"
+class MystLangAT020 < Formula
+  desc "The Myst programming language, v0.2.0 (Nov 11, 2017)"
   homepage "https://github.com/myst-lang/myst"
-  url "https://github.com/myst-lang/myst/archive/v0.3.0.tar.gz"
-  sha256 "8029dbd01b726f5ea01fedbbdfe0e0ce617e5d78d3f265d0805f1929bfc73965"
+  url "https://github.com/myst-lang/myst/archive/v0.2.0.tar.gz"
+  sha256 "873f5abdde978dd85685f3063400fb3c0bf2fc7875f1e114302969d4af19d2cd"
 
   depends_on "crystal-lang" => :build
 
