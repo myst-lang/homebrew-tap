@@ -8,7 +8,7 @@ class MystLang < Formula
 
   def install
     # Install the executable binary
-    system "crystal", "build", "./src/myst.cr"
+    system "crystal", "build", "./src/myst.cr", "--release"
     bin.install "myst"
     # Install the interpreter source for clients to interact with.
     prefix.install "src"
