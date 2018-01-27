@@ -1,4 +1,4 @@
-class MystLang < Formula
+class MystLangAT030 < Formula
   desc "The Myst programming language, v0.3.0 (Dec 28, 2017)"
   homepage "https://github.com/myst-lang/myst"
   url "https://github.com/myst-lang/myst/archive/v0.3.0.tar.gz"
