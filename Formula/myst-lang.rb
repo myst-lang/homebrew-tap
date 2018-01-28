@@ -9,7 +9,7 @@ class MystLang < Formula
   def install
     # Install the executable binary
     system "shards", "build", "--production"
-    bin.install "myst"
+    bin.install Dir["bin/*"]
     # Install the interpreter source for clients to interact with.
     prefix.install "src"
     # Install the standard library
